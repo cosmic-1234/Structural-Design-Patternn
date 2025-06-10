@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Audio_1 = require("./Audio");
+const Video_1 = require("./Video");
+const youtubeadapt_1 = require("./youtubeadapt");
+const o1 = new Audio_1.Audio();
+const o2 = new Video_1.Video();
+const o3 = new youtubeadapt_1.Mediadapter();
+console.log(o1.play("Alex"));
+console.log(o2.play("Malex"));
+console.log(o3.play("Galex"));
