@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const singleMedia_1 = require("./singleMedia");
+const playlist_1 = require("./playlist");
+const song1 = new singleMedia_1.singleMedia("Blue eyes.mp3");
+const song2 = new singleMedia_1.singleMedia("BrownRang.mp3");
+const song3 = new singleMedia_1.singleMedia("Pani wala dance.mp3");
+const playlist1 = new playlist_1.playlist();
+playlist1.add(song1);
+playlist1.add(song2);
+playlist1.add(song3);
+playlist1.play();
+song1.play();
